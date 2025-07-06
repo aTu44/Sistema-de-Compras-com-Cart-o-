@@ -1,1 +1,106 @@
-Este programa em Java simula um sistema de gestão de compras com cartão de crédito, permitindo que usuários definam um limite de crédito, façam compras, e acompanhem o saldo restante. O programa solicita ao usuário que insira uma descrição e um valor para cada compra, processando-as para garantir que possam ser concluídas dentro do saldo disponível. Compras bem-sucedidas são adicionadas a uma lista e o saldo é atualizado; compras que excedem o saldo são recusadas. A estrutura do código inclui a classe Cartao, que gerencia o limite de crédito, saldo, e lista de compras, e a classe Compras, que representa uma compra individual com atributos de descrição e valor. O usuário pode continuar a inserir compras até que escolha parar ou o saldo se torne insuficiente. O sistema exibe todas as compras realizadas com sucesso e o saldo restante do cartão. Para executar o programa, é necessário ter o JDK 8 ou posterior e um IDE Java ou terminal.
+# 💳 Sistema de Compras com Cartão
+
+Este projeto em **Java** simula um sistema de gestão de compras com cartão de crédito. Ele permite que usuários configurem um limite de crédito, realizem compras e acompanhem o saldo disponível em tempo real.
+
+---
+
+## 🚀 Funcionalidades
+
+- Definir limite inicial do cartão
+- Inserir compras com **descrição** e **valor**
+- Verificar se a compra pode ser realizada com o saldo atual
+- Armazenar e exibir a lista de compras concluídas
+- Atualizar o saldo após cada compra
+- Exibir saldo restante ao final
+
+---
+
+## 🏗️ Estrutura do código
+
+- **Classe `Cartao`**  
+  Gerencia o limite de crédito, saldo disponível e lista de compras aprovadas.
+
+- **Classe `Compras`**  
+  Representa uma compra individual, contendo a descrição e o valor.
+
+---
+
+## 💡 Como funciona
+
+1. O usuário define o limite do cartão de crédito.
+2. O programa solicita a descrição e o valor de cada compra.
+3. Se houver saldo suficiente, a compra é aprovada e adicionada à lista.
+4. Caso contrário, a compra é recusada.
+5. O usuário pode continuar adicionando compras até decidir parar ou até o saldo não permitir mais novas compras.
+6. Ao finalizar, o sistema exibe todas as compras aprovadas e o saldo restante.
+
+---
+
+## ⚙️ Requisitos
+
+- **Java JDK 8** ou superior
+- IDE Java (por exemplo: IntelliJ, Eclipse, NetBeans) ou terminal com compilador Java
+
+---
+
+## ▶️ Como executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/aTu44/Sistema-de-Compras-com-Cart-o-.git
+   ```
+2. Compile os arquivos Java:
+   ```bash
+   javac Cartao.java Compras.java Main.java
+   ```
+3. Execute o programa:
+   ```bash
+   java Main
+   ```
+
+---
+
+## 🗺️ Diagrama de classes (resumido)
+
+```
++-----------+
+|  Cartao   |
++-----------+
+| - limite  |
+| - saldo   |
+| - compras |
++-----------+
+| +adicionaCompra() |
+| +getSaldo()       |
+| +getCompras()     |
++-----------+
+
++------------+
+|  Compras   |
++------------+
+| - desc     |
+| - valor    |
++------------+
+| +getDesc() |
+| +getValor()|
++------------+
+```
+
+---
+
+## 💬 Observações
+
+- O sistema foi desenvolvido como um exercício de prática em Programação Orientada a Objetos (POO) em Java.
+- O código é simples e didático, pensado para iniciantes consolidarem conceitos como **classes**, **objetos**, **atributos** e **métodos**.
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença [MIT](LICENSE).
+
+---
+
+## ✉️ Contato
+
+Caso tenha dúvidas ou sugestões, sinta-se à vontade para entrar em contato através do [meu GitHub](https://github.com/aTu44).
