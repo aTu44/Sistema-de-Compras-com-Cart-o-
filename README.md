@@ -60,34 +60,6 @@ Este projeto em **Java** simula um sistema de gestão de compras com cartão de 
 
 ---
 
-## 🗺️ Diagrama de classes (resumido)
-
-```
-+-----------+
-|  Cartao   |
-+-----------+
-| - limite  |
-| - saldo   |
-| - compras |
-+-----------+
-| +adicionaCompra() |
-| +getSaldo()       |
-| +getCompras()     |
-+-----------+
-
-+------------+
-|  Compras   |
-+------------+
-| - desc     |
-| - valor    |
-+------------+
-| +getDesc() |
-| +getValor()|
-+------------+
-```
-
----
-
 ## 💬 Observações
 
 - O sistema foi desenvolvido como um exercício de prática em Programação Orientada a Objetos (POO) em Java.
