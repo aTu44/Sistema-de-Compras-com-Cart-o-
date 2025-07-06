@@ -95,12 +95,3 @@ Este projeto em **Java** simula um sistema de gestão de compras com cartão de 
 
 ---
 
-## 📄 Licença
-
-Este projeto está sob a licença [MIT](LICENSE).
-
----
-
-## ✉️ Contato
-
-Caso tenha dúvidas ou sugestões, sinta-se à vontade para entrar em contato através do [meu GitHub](https://github.com/aTu44).
